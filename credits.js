@@ -1,5 +1,5 @@
 
-const api = "https://raw.githubusercontent.com/Xmdloft23/senku-xmd/refs/heads/main/credits.json";
+const api = "https://raw.githubusercontent.com/Xmdloft23/QuantumX5/refs/heads/main/credits.json";
 
 let credsCache = null;
 

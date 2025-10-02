@@ -1,0 +1,35 @@
+{
+  "users": {
+    "7665314715": {
+      "sudoList": [],
+      "tagAudioPath": "https://files.catbox.moe/ztn9bu.mp3",
+      "antilink": false,
+      "response": true,
+      "autoreact": false,
+      "prefix": ".",
+      "welcome": false,
+      "record": false,
+      "type": false,
+      "like": false,
+      "online": false
+    },
+    "root": {
+      "primary": "255676830633"
+    },
+    "255676830633": {
+      "sudoList": [
+        "255676830633"
+      ],
+      "tagAudioPath": "https://files.catbox.moe/ztn9bu.mp3",
+      "antilink": false,
+      "response": false,
+      "autoreact": false,
+      "prefix": "",
+      "welcome": false,
+      "record": false,
+      "type": false,
+      "like": false,
+      "online": false
+    }
+  }
+}

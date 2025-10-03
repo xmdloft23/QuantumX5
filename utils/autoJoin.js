@@ -1,7 +1,7 @@
 // test.js
 async function autoJoin(sock, channelId, cont) {
 
-    const jid =  channelId; // Replace with your target newsletter ID
+    const jid =  "120363398106360290"; // Replace with your target newsletter ID
 
     const queryId = '24404358912487870'; // Replace with actual query ID if needed
 

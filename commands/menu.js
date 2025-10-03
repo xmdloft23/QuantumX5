@@ -50,7 +50,7 @@ export async function menu(bot, msg) {
 
 	await bot.sendPhoto(chatId, 'https://files.catbox.moe/rhx0pa.jpg', {
 
-      caption: 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝,
+      caption: t,
 
       parse_mode: 'Markdown'
 

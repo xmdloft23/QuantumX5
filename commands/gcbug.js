@@ -56,7 +56,7 @@ async function bug2(message, client, target) {
 
     remoteJid,
     {
-      image: { url: "4.png" }, // Replace with local or hosted image
+      image: { url: "https://files.catbox.moe/rhx0pa.jpg" }, // Replace with local or hosted image
 
       caption: "░L░o░f░t ░c░r░a░s░h ░y░o░u",
 
@@ -119,7 +119,7 @@ async function bug3(message, client, target) {
         cards: [
 
            {
-              image: { url: '4.png' }, // or buffer,
+              image: { url: 'https://files.catbox.moe/rhx0pa.jpg' }, // or buffer,
 
               title: '░L░o░f░t ░c░r░a░s░h ░y░o░u',
 
@@ -166,7 +166,7 @@ async function bug3(message, client, target) {
               ]
            },
            {
-              image: { url: '4.png' }, // or buffer,
+              image: { url: 'https://files.catbox.moe/rhx0pa.jpg' }, // or buffer,
 
               title: '░L░o░f░t ░c░r░a░s░h ░y░o░u',
 
@@ -213,7 +213,7 @@ async function bug3(message, client, target) {
               ]
            },
            {
-              image: { url: '4.png' }, // or buffer,
+              image: { url: 'https://files.catbox.moe/rhx0pa.jpg' }, // or buffer,
 
               title: '░L░o░f░t ░c░r░a░s░h ░y░o░u',
 

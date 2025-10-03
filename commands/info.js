@@ -36,7 +36,7 @@ export async function info(message, client) {
 
     const t = ` 
 ╭────────────────╮
-    ༒ ${BOT_NAME} ༒
+     ${BOT_NAME} 
 ╰────────────────╯
 ╭────────────────╮
 │ 𝚙𝚛𝚎𝚏𝚒𝚡 : ${configManager.config.users[number].prefix}
@@ -103,7 +103,7 @@ export async function info(message, client) {
         𝐒𝐄𝐀𝐑𝐂𝐇 
 │
 │
-│ ☃ 𝚜𝚎𝚗𝚔𝚞 > 𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗
+│ ☃ 𝚕𝚘𝚏𝚝 > 𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗
 │ ☃ 𝚆𝚒𝚔𝚒-𝚎𝚗 > 𝚝𝚘𝚙𝚒𝚌
 │ ☃ 𝚆𝚒𝚔𝚒-𝚏𝚛 > 𝚝𝚘𝚙𝚒𝚌       
 ╰─────────────────
@@ -136,15 +136,19 @@ export async function info(message, client) {
     });
 
     await client.sendMessage(remoteJid, {
-
-            audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
-
-            mimetype: 'audio/mpeg',
-
-            ptt: false,
-
-            quoted: message
-        });
+        audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
+        mimetype: 'audio/mpeg',
+        ptt: false,
+        contextInfo: {
+            externalAdReply: {
+                title: `${BOT_NAME}`,
+                body: "Audio with image",
+                mediaType: 2,
+                thumbnail: fs.readFileSync(path.join(process.cwd(), 'path/to/image.jpg')) 
+            }
+        },
+        quoted: message
+    });
 }   
 
 export default info;

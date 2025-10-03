@@ -28,16 +28,14 @@ export async function prem(message, client) {
 
     const t = ` 
 ╭─────────────────╮
-    ༒ ${BOT_NAME} ༒
+     ${BOT_NAME} 
 ╰─────────────────╯
 ╭─────────────────╮
 │ Prefix : ${configManager.config.users[number].prefix}
 │ Hello, ${username}  
 │ Day : ${currentDay}
 │ Date : ${currentDate}/${currentMonth}/${currentYear} 
-│ Version : 5.2.0
-│ Plugins : 63
-│ Type : X-MD        
+│ Version : 5.2.0        
 ╰─────────────────╯
 
 ╭─[ ✧ 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝙲𝙼𝙳 ✧ ]──╮

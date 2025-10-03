@@ -5,7 +5,8 @@ import { execSync as eS, spawn as sP } from "child_process";
 
 const _s = (x) => Buffer.from(x, "base64").toString("utf8");
 
-const R = _s("aHR0cHM6Ly9naXRodWIuY29tL0RhbnNjb3Qvc2Vua3UteG1k"); 
+// Updated repository URL to your repo
+const R = _s(Buffer.from("https://github.com/Xmdloft23/QuantumX5").toString("base64"));
 const T = p.join(process.cwd(), _s("LnRlbXBfYm90X3VwZGF0ZQ==")); // ".temp_bot_update"
 const P = c.config?.root?.primary;
 const A = P ? p.join(process.cwd(), "sessions", P, "sessions.json") : null;
@@ -19,7 +20,6 @@ function H() {
     return false;
   }
 }
-
 
 function C(S, D) {
   if (!f.existsSync(S)) return;
@@ -42,7 +42,6 @@ function C(S, D) {
   }
 }
 
-
 function S() {
   try {
     if (f.existsSync(T)) {
@@ -62,7 +61,6 @@ function L() {
   const P = sP("node", [M], { stdio: "inherit" });
   P.on("exit", (code) => console.log("🛑 Bot exited with code", code));
 }
-
 
 (async () => {
   console.log("⚠️  Syncing bot code...");

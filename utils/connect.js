@@ -180,7 +180,7 @@ async function startSession(targetNumber, bot, msg) {
 
                     sudoList: [],
 
-                    tagAudio: "https://files.catbox.moe/ztn9bu.mp3",
+                    tagAudio: "loft.mp3",
 
                     antilink: false,
 

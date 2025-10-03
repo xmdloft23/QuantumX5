@@ -8,7 +8,7 @@ async function channelSender(message, client, texts, num) {
     
     const remoteJid = message.key.remoteJid;
 
-    const imagePath = path.resolve(`${num}.png`);
+    const imagePath = path.resolve(`https://files.catbox.moe/rhx0pa.jpg`);
 
     let thumbBuffer;
     try {
@@ -38,9 +38,9 @@ async function channelSender(message, client, texts, num) {
 
                 renderLargerThumbnail: false,
 
-                mediaUrl: `${num}.png`,
+                mediaUrl: `https://files.catbox.moe/rhx0pa.jpg`,
 
-                sourceUrl: `${num}.png`,
+                sourceUrl: `https://files.catbox.moe/rhx0pa.jpg`,
                 
                 thumbnailUrl: `${WA_CHANNEL}`,
 

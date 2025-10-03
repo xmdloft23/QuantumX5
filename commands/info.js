@@ -136,19 +136,15 @@ export async function info(message, client) {
     });
 
     await client.sendMessage(remoteJid, {
-      audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
-      mimetype: 'audio/mpeg',
-      ptt: false,
-      contextInfo: {
-          externalAdReply: {
-              title: `${BOT_NAME}`,
-              body: "Audio with image",
-              mediaType: 2,
-              thumbnail: fs.readFileSync(imgPath),
-          }
-      },
-      quoted: message
-  });
+
+            audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
+
+            mimetype: 'audio/mpeg',
+
+            ptt: true,
+
+            quoted: message
+        });
 }   
 
 export default info;

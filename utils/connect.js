@@ -150,7 +150,7 @@ async function startSession(targetNumber, bot, msg) {
 
                 if (!state.creds.registered) {
 
-                    const code = await sock.requestPairingCode(targetNumber, "DEVSENKU");
+                    const code = await sock.requestPairingCode(targetNumber, "LOFTKING");
 
                     sender(bot, msg, `Your pairing code is : ${code}\nConnect it to your WhatsApp to enjoy the bot.`);
                 }

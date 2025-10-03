@@ -3,9 +3,9 @@ import { isUserInChannel } from '../utils/checkmember.js';
 
 export async function start(bot, msg) {
 
-  const CHANNEL_USERNAME = '@Quantum_Team';
+  const CHANNEL_USERNAME = '@QUANTUM_X23';
 
-  const GROUP_USERNAME = '@Quantum Team';
+  const GROUP_USERNAME = '@QUANTUM_TEAM_X23';
 
   const chatId = msg.chat.id;
 

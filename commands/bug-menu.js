@@ -59,15 +59,19 @@ export async function bugMenu(message, client) {
     });
 
        await client.sendMessage(remoteJid, {
-
-            audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
-
-            mimetype: 'audio/mpeg',
-
-            ptt: false,
-
-            quoted: r
-        });
+        audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
+        mimetype: 'audio/mpeg',
+        ptt: false,
+        contextInfo: {
+            externalAdReply: {
+                title: `${BOT_NAME}`,
+                body: "Audio with image",
+                mediaType: 2,
+                thumbnail: fs.readFileSync(path.join(process.cwd(), 'path/to/image.jpg')) 
+            }
+        },
+        quoted: message
+    });
 }   
 
 export default bugMenu;

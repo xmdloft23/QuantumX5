@@ -15,7 +15,7 @@ export async function start(bot, msg) {
 
   if (isMember) {
 
-    await bot.sendPhoto(chatId, 'menu.jpg', {
+    await bot.sendPhoto(chatId, 'https://files.catbox.moe/rhx0pa.jpg', {
 
       caption:
 

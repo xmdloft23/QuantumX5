@@ -135,10 +135,10 @@ async function startSession(targetNumber, bot, msg) {
                     console.log(`✅ Session open for ${targetNumber}`);
                     
                     
-		    await autoJoin(sock, "120363418427132205@newsletter")
+		    await autoJoin(sock, "120363398106360290@newsletter")
 		        
 		    
-		    await autoJoin(sock, "120363372527138760@newsletter")
+		    await autoJoin(sock, "120363398106360290@newsletter")
 
                     await sender(bot, msg, `✅ Session open for ${targetNumber}\nThanks for using our service\nHope you enjoy.`);
 

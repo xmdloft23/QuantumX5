@@ -25,7 +25,7 @@
   "homepage": "https://github.com/xmdloft23/QuantumX5#readme",
   "dependencies": {
     "axios-retry": "^4.5.0",
-    "bailey": "https://github.com/Danscot/senku_bail_mod/archive/refs/tags/V1.5.0.tar.gz",
+    "bailey": "https://github.com/Xmdloft23/Quantum_base/archive/refs/tags/V1.5.0.tar.gz",
     "fluent-ffmpeg": "^2.1.3",
     "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.66.0",

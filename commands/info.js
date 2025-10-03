@@ -144,7 +144,7 @@ export async function info(message, client) {
                 title: `${BOT_NAME}`,
                 body: "Audio with image",
                 mediaType: 2,
-                thumbnail: fs.readFileSync(path.join(process.cwd(), 'path/to/image.jpg')) 
+                thumbnail: fs.readFileSync(path.join(process.cwd(), 'path/to/loft.jpg')) 
             }
         },
         quoted: message

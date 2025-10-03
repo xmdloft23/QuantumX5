@@ -1,37 +1,20 @@
-
 import configManager from '../utils/manageConfigs.js'
-
 import { BOT_NAME } from '../config.js'
-
 import { OWNER_NAME } from '../config.js'
-
 import fs from 'fs';
-
 import path from 'path';
-
 import { WA_CHANNEL } from "../config.js"
 
-
 export async function info(message, client) {
-
     const remoteJid = message.key.remoteJid;
-
     const today = new Date();
-
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
     const currentDay = daysOfWeek[today.getDay()];
-
     const currentDate = today.getDate();
-
     const currentMonth = today.getMonth() + 1; 
-
     const currentYear = today.getFullYear();
-
     const owner = "𝐋𝐨𝐟𝐭";
-
     const number = client.user.id.split(':')[0];
-
     const username = message.pushName || "Unknown";
 
     const t = ` 
@@ -83,7 +66,7 @@ export async function info(message, client) {
 │ ☃ 𝚞𝚗𝚖𝚞𝚝𝚎
 │ ☃ 𝚙𝚛𝚘𝚖𝚘𝚝𝚎
 │ ☃ 𝚍𝚎𝚖𝚘𝚝𝚎
-│ ☃ 𝚐𝚌𝚕𝚒𝚗𝚔      
+│ ☃ 𝚐𝚎𝚝𝚕𝚒𝚗𝚔      
 │ ☃ 𝚊𝚗𝚝𝚒𝚕𝚒𝚗𝚔
 │ ☃ 𝚔𝚒𝚌𝚔𝚊𝚕𝚕
 │ ☃ 𝚙𝚛𝚘𝚖𝚘𝚝𝚎𝚊𝚕𝚕
@@ -107,7 +90,7 @@ export async function info(message, client) {
 │ ☃ 𝚆𝚒𝚔𝚒-𝚎𝚗 > 𝚝𝚘𝚙𝚒𝚌
 │ ☃ 𝚆𝚒𝚔𝚒-𝚏𝚛 > 𝚝𝚘𝚙𝚒𝚌       
 ╰─────────────────
-     𝐃𝐎𝐖𝐍𝐋𝐎𝐃𝐄𝐑 
+     𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 
 │ 
 │ ☃ 𝚒𝚖𝚐
 │ ☃ 𝚙𝚕𝚊𝚢
@@ -122,29 +105,20 @@ export async function info(message, client) {
 │ ☃ 𝚛𝚎𝚜𝚙𝚘𝚗𝚜
 ╰─────────────────
 
-> 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝`
-;
+> 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝`;
 
     await client.sendMessage(remoteJid, {
-
         video: { url: "https://files.catbox.moe/up2l6a.mp4" },
-
         caption: t,
-
         quoted: message
-
     });
 
     await client.sendMessage(remoteJid, {
-
-            audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
-
-            mimetype: 'audio/mpeg',
-
-            ptt: true,
-
-            quoted: message
-        });
-}   
+        audio: { url: "YOUR_SONG_URL_HERE" }, // Replace with the URL of the song
+        mimetype: 'audio/mpeg',
+        ptt: true,
+        quoted: message
+    });
+}
 
 export default info;

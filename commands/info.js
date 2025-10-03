@@ -33,7 +33,7 @@ export async function info(message, client) {
     const number = client.user.id.split(':')[0];
 
     const imgPath = path.join(process.cwd(), 'loft.jpg');
-  await downloadImage('https://files.catbox.moe/your_thumbnail.jpg', imgPath);
+  await downloadImage('https://files.catbox.moe/khwhxk.jpg', imgPath);
 
     const username = message.pushName || "Unknown";
 

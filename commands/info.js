@@ -129,7 +129,7 @@ export async function info(message, client) {
 
         video: { url: "https://files.catbox.moe/up2l6a.mp4" },
 
-        caption: 𝐋𝐨𝐟𝐭,
+        caption: t,
 
         quoted: message
 

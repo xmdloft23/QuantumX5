@@ -79,7 +79,7 @@ export async function info(message, client) {
 │ 〄 𝚙𝚑𝚘𝚝𝚘
 │ 〄 𝚜𝚎𝚝𝚙𝚙
 │ 〄 𝚐𝚎𝚝𝚙𝚙
-│ 〄 𝚝𝚘𝚊𝚞𝚍𝚒𝚘
+│ 〄 �𝚝𝚘𝚊𝚞𝚍𝚒𝚘
 │ 〄 𝚜𝚝𝚒𝚌𝚔𝚎𝚛
 ╰─────────────────
         𝐒𝐄𝐀𝐑𝐂𝐇 
@@ -87,7 +87,7 @@ export async function info(message, client) {
 │
 │ 〄 𝚜𝚎𝚗𝚔𝚞 > 𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗
 │ 〄 𝚆𝚒𝚔𝚒-𝚎𝚗 > 𝚝𝚘𝚙𝚒𝚌
-│ 〄 �𝚆𝚒𝚔𝚒-𝚏𝚛 > 𝚝𝚘𝚙𝚒𝚌       
+│ 〄 𝚆𝚒𝚔𝚒-𝚏𝚛 > 𝚝𝚘𝚙𝚒𝚌       
 ╰─────────────────
      𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 
 │ 
@@ -104,25 +104,27 @@ export async function info(message, client) {
 │ 〄 𝚛𝚎𝚜𝚙𝚘𝚗𝚜
 ╰─────────────────
 
-> 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻�.o𝚏𝚝`;
-    
+> 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝`;
+
     await client.sendMessage(remoteJid, {
-        video: { url: "https://files.catbox.moe/up2l6a.mp4" },
+        video: { url: "https://up2l6a.mp4" },
         caption: t,
         quoted: message
     });
 
     await client.sendMessage(remoteJid, {
-        audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
+        audio: { url: "https://ztn9bu.mp3" }, 
         mimetype: 'audio/mpeg',
-        ptt: true,
+        ptt: true, // Ensures it plays as a voice note
+        waveform: [0, 50, 100, 50, 0, 50, 100], // Adding waveform for better voice note visualization
+        seconds: 30, // Approximate duration of the audio (adjust as needed)
         contextInfo: {
             externalAdReply: {
                 title: "LOFT QUANTUM",
                 body: "Powered by Sir Loft",
                 mediaType: 1,
-                thumbnailUrl: "https://files.catbox.moe/unike7.jpeg", // Replace with your Catbox image URL
-                sourceUrl: "https://files.catbox.moe/ztn9bu.mp3"
+                thumbnailUrl: "https://unike7.jpeg", // Removed files.catbox.moe
+                sourceUrl: "https://ztn9bu.mp3" // Removed files.catbox.moe
             }
         },
         quoted: message

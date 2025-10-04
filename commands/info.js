@@ -139,7 +139,7 @@ export async function info(message, client) {
 
             audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
 
-            mimetype: 'audio/mpeg',
+            mimetype: 'audio/mp4',
 
             ptt: true,
 

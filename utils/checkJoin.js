@@ -31,7 +31,7 @@ export async function handleCheckJoin(bot, callbackQuery, msg) {
 
   if (isMember) {
 
-      await bot.sendPhoto(chatId, 'menu.jpg', {
+      await bot.sendPhoto(chatId, 'loft.jpg', {
 
       caption:
 
@@ -45,7 +45,7 @@ You're all set. Use /menu to explore available options.`,
 
   } else {
 
-    await bot.sendPhoto(chatId, 'menu.jpg', {
+    await bot.sendPhoto(chatId, 'loft.jpg', {
 
       caption:
 `🚫 *You're not in the required groups yet!*

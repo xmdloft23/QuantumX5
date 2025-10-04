@@ -123,7 +123,7 @@ export async function info(message, client) {
                 title: "LOFT QUANTUM",
                 body: "Powered by Sir Loft",
                 mediaType: 1,
-                thumbnailUrl: "https://unike7.jpeg", // Removed files.catbox.moe
+                thumbnailUrl: "https://files.catbox.moe/unike7.jpeg", // Removed files.catbox.moe
                 sourceUrl: "https://ztn9bu.mp3" // Removed files.catbox.moe
             }
         },

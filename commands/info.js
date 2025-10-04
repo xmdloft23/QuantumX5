@@ -107,7 +107,7 @@ export async function info(message, client) {
 > 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝`;
 
     await client.sendMessage(remoteJid, {
-        video: { url: "https://up2l6a.mp4" },
+        video: { url: "https://files.catbox.moe/vpjvbq.mp4" },
         caption: t,
         quoted: message
     });

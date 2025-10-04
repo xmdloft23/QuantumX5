@@ -115,10 +115,10 @@ export async function info(message, client) {
     await client.sendMessage(remoteJid, {
         audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
         mimetype: 'audio/mpeg',
-        ptt: false,
+        ptt: true,
         contextInfo: {
             externalAdReply: {
-                title: "Audio Thumbnail",
+                title: "LOFT QUANTUM",
                 body: "Powered by Sir Loft",
                 mediaType: 1,
                 thumbnailUrl: "https://files.catbox.moe/unike7.jpeg", // Replace with your Catbox image URL

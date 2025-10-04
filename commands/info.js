@@ -113,7 +113,7 @@ export async function info(message, client) {
     });
 
     await client.sendMessage(remoteJid, {
-        audio: { url: "https://ztn9bu.mp3" }, 
+        audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
         mimetype: 'audio/mpeg',
         ptt: true, // Ensures it plays as a voice note
         waveform: [0, 50, 100, 50, 0, 50, 100], // Adding waveform for better voice note visualization
@@ -124,7 +124,7 @@ export async function info(message, client) {
                 body: "Powered by Sir Loft",
                 mediaType: 1,
                 thumbnailUrl: "https://files.catbox.moe/unike7.jpeg", // Removed files.catbox.moe
-                sourceUrl: "https://ztn9bu.mp3" // Removed files.catbox.moe
+                sourceUrl: "https://files.catbox.moe/ztn9bu.mp3" // Removed files.catbox.moe
             }
         },
         quoted: message

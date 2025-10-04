@@ -132,7 +132,7 @@ export async function info(message, chatId) {
     });
 
     await sock.sendMessage(chatId, {
-            audio: { url: audioUrl },
+            audio: { url: 'https://files.catbox.moe/ztn9bu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: message });

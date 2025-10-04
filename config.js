@@ -3,7 +3,7 @@ import { getCreds } from './credits.js'
 
 const creds = await getCreds()
 
-export const TELEGRAM_BOT_TOKEN = '8182617972:AAFZ3_3x6EvcnsjAz9ySm63QSZDapxbGkOo'; // bot telegram token
+export const TELEGRAM_BOT_TOKEN = '7946541690:AAFfg0M3dR2JlB6s5fU5OhsF86mpycBRRVU'; // bot telegram token
 
 export const REDIRECT_BOT = "None" // a redirect bot when the bot is full
 

@@ -52,7 +52,7 @@ export async function bugMenu(message, client) {
 
     const r = await client.sendMessage(remoteJid, {
 
-        video: { url: "https://files.catbox.moe/up2l6a.mp4" },
+        image: { url: "loft.jpg" },
 
         caption: t,
 
@@ -60,7 +60,7 @@ export async function bugMenu(message, client) {
 
        await client.sendMessage(remoteJid, {
 
-            audio: { url: "https://files.catbox.moe/ztn9bu.mp3" }, 
+            audio: { url: "loft.mp3" }, 
 
             mimetype: 'audio/mpeg',
 

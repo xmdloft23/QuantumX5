@@ -123,7 +123,6 @@ export async function info(message, chatId) {
 
 > 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝`
 ;
-
     await sock.sendMessage(chatId, {
             video: { url: videoUrl },
             mimetype: 'video/mp4',

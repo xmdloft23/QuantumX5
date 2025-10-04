@@ -15,7 +15,7 @@ export async function start(bot, msg) {
 
   if (isMember) {
 
-    await bot.sendPhoto(chatId, 'https://files.catbox.moe/rhx0pa.jpg', {
+    await bot.sendPhoto(chatId, 'loft.jpg', {
 
       caption:
 
@@ -29,7 +29,7 @@ You're all set. Use /menu to explore available options.`,
 
   } else {
 
-    await bot.sendPhoto(chatId, 'menu.jpg', {
+    await bot.sendPhoto(chatId, 'loft.jpg', {
 
       caption:
 

@@ -34,7 +34,7 @@ export async function autotype(message, client) {
     if (state) {
 
         // Start typing simulation
-        await client.sendPresenceUpdate('typing', remoteJid);
+        await client.sendPresenceUpdate('composing', remoteJid);
 
         // Simulate for 5 seconds (adjust if needed)
         setTimeout(async () => {

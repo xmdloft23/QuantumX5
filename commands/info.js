@@ -121,7 +121,7 @@ export async function info(message, client) {
                 title: "Audio Thumbnail",
                 body: "Powered by Sir Loft",
                 mediaType: 1,
-                thumbnailUrl: "https://files.catbox.moe/example.jpg", // Replace with your Catbox image URL
+                thumbnailUrl: "https://files.catbox.moe/unike7.jpeg", // Replace with your Catbox image URL
                 sourceUrl: "https://files.catbox.moe/ztn9bu.mp3"
             }
         },

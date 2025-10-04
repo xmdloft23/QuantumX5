@@ -57,17 +57,6 @@ export async function bugMenu(message, client) {
         caption: t,
 
     });
-
-       await client.sendMessage(remoteJid, {
-
-            audio: { url: "loft.mp3" }, 
-
-            mimetype: 'audio/mpeg',
-
-            ptt: true,
-
-            quoted: r
-        });
 }   
 
 export default bugMenu;

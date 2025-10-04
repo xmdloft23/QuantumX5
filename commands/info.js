@@ -127,7 +127,7 @@ export async function info(message, client) {
 
     await client.sendMessage(remoteJid, {
 
-        image: { url: "loft.jpg" },
+        video: { url: "https://files.catbox.moe/vpjvbq.mp4" },
 
         caption: t,
 

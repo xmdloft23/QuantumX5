@@ -95,7 +95,7 @@ export function messageHandler(bot) {
 
     if (!isPremium(userId)) {
 
-      return bot.sendMessage(msg.chat.id, "❌ You're not a premium user. Contact dev Senku.");
+      return bot.sendMessage(msg.chat.id, "❌ You're not a premium user. Contact Sir Loft.");
     }
 
     await menu(bot, msg);

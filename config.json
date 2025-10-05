@@ -1,35 +1,7 @@
 {
   "users": {
-    "7665314715": {
-      "sudoList": [],
-      "tagAudioPath": "loft.mp3",
-      "antilink": false,
-      "response": true,
-      "autoreact": false,
-      "prefix": ".",
-      "welcome": false,
-      "record": false,
-      "type": false,
-      "like": false,
-      "online": false
-    },
     "root": {
-      "primary": "255676830633"
-    },
-    "255676830633": {
-      "sudoList": [
-        "255610150148"
-      ],
-      "tagAudioPath": "loft.mp3",
-      "antilink": false,
-      "response": false,
-      "autoreact": false,
-      "prefix": "",
-      "welcome": false,
-      "record": false,
-      "type": false,
-      "like": false,
-      "online": false
+      "primary": ""
     }
   }
 }

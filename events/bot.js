@@ -13,7 +13,7 @@ export let bot;
 export async function startBot() {
 
   try {
-    
+
     const response = await axios.get(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`);
 
     const updates = response.data.result;
@@ -26,17 +26,20 @@ export async function startBot() {
 
     bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: { autoStart: false } });
 
-    bot.startPolling({ offset: lastUpdate }); // 🔥 starts fresh
+    bot.startPolling({ offset: lastUpdate }); // ✅ starts fresh
 
     reconnect();
 
     messageHandler(bot);
 
-    console.log('🤖 Telegram bot is running...');
+    console.log('🔑 Telegram bot is running...');
 
   } catch (error) {
 
     console.error('❌ Failed to start Telegram bot:', error);
+
+   reconnect()
+
 
   }
 

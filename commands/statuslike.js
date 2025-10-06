@@ -17,13 +17,13 @@ async function statusLike(message, client, state) {
 
             react: {
 
-                text: '💚',
+                text: '🩸',
 
                 key: message.key
             }
         });
 
-        console.log('Reacted with 💚 to a status update.');
+        console.log('Reacted with 🩸 to a status update.');
 
     } catch (error) {
 

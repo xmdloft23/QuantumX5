@@ -3,7 +3,7 @@ import configManager from '../utils/manageConfigs.js';
 
 import channelSender from '../commands/channelSender.js'
 
-export async function auto(message, client, cond, emoji="👻"){
+export async function auto(message, client, cond, emoji="👻","😹","🩸","💦","💔","💫","😃"){
 
     const remoteJid = message.key.remoteJid;
 

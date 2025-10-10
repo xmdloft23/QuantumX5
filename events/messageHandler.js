@@ -198,7 +198,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                            await channelSender(message, client, "command only for premium users. Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium.\n", 2)
+                            await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
                         }
 
                         break;
@@ -221,7 +221,7 @@ async function handleIncomingMessage(event, client) {
 
                             console.error("Error in prem-menu command:", error);
                         }
-                       
+
                         break;
 
                     break;
@@ -244,7 +244,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                            await channelSender(message, client, "command only for premium users. Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium.\n", 2)
+                            await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
                         }
 
                         break;
@@ -270,7 +270,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                            await channelSender(message, client, "command only for premium users\n Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium\n", 2)
+                            await channelSender(message, client, "command only for premium users\n Contact Dev Danscot Senku to be premium\n", 2)
                         }
 
                         break;
@@ -420,7 +420,7 @@ async function handleIncomingMessage(event, client) {
                             try {
                                 await group.bye(message, client);
 
-                        
+
 
                             } catch (error) {
                                 await client.sendMessage(message.key.remoteJid, { 
@@ -449,7 +449,7 @@ async function handleIncomingMessage(event, client) {
                             try {
                                 await group.kickall(message, client);
 
-                        
+
 
                             } catch (error) {
                                 await client.sendMessage(message.key.remoteJid, { 
@@ -479,7 +479,7 @@ async function handleIncomingMessage(event, client) {
                             try {
                                 await group.purge(message, client);
 
-                        
+
 
                             } catch (error) {
                                 await client.sendMessage(message.key.remoteJid, { 
@@ -516,7 +516,7 @@ async function handleIncomingMessage(event, client) {
                             try {
 
                                 await group.promote(message, client);
-                                
+
                                 await channelSender(message, client, "Succceded in promoting target", 2);
 
                             } catch (error) {
@@ -529,7 +529,7 @@ async function handleIncomingMessage(event, client) {
                                 console.error("Error in demote command:", error);
                             }
                         } else {
-                            
+
                                 await channelSender(message, client, "command only for bot owner", 2);
                         }
 
@@ -548,7 +548,7 @@ async function handleIncomingMessage(event, client) {
                             try {
 
                                 await group.demote(message, client);
-                                
+
                                 await channelSender(message, client, "Succceded in demoting target", 2);
 
                             } catch (error) {
@@ -561,7 +561,7 @@ async function handleIncomingMessage(event, client) {
                                 console.error("Error in demote command:", error);
                             }
                         } else {
-                            
+
                                 await channelSender(message, client, "command only for bot owner", 2);
                         }
 
@@ -596,7 +596,7 @@ async function handleIncomingMessage(event, client) {
                                 console.error("Error in kill command:", error);
                             }
                         } else {
-                            
+
                                 await channelSender(message, client, "command only for bot owner", 1);
                         }
 
@@ -615,7 +615,7 @@ async function handleIncomingMessage(event, client) {
                             try {
 
                                 await group.dall(message, client, userLid);
-                                
+
                                 await channelSender(message, client, "Succceded in demoting everyone", 1);
 
                             } catch (error) {
@@ -628,7 +628,7 @@ async function handleIncomingMessage(event, client) {
                                 console.error("Error in demoteall command:", error);
                             }
                         } else {
-                            
+
                                 await channelSender(message, client, "command only for bot owner", 2);
                         }
 
@@ -647,7 +647,7 @@ async function handleIncomingMessage(event, client) {
                             try {
 
                                 await group.pall(message, client);
-                                
+
                                 await channelSender(message, client, "Succceded in promoting everyone", 1);
 
                             } catch (error) {
@@ -660,7 +660,7 @@ async function handleIncomingMessage(event, client) {
                                 console.error("Error in promoteall command:", error);
                             }
                         } else {
-                            
+
                                 await channelSender(message, client, "command only for bot owner", 2);
                         }
 
@@ -833,7 +833,7 @@ async function handleIncomingMessage(event, client) {
 
                     break;
 
-                
+
                 case 'tag':
 
                     await react(message, client);
@@ -848,10 +848,10 @@ async function handleIncomingMessage(event, client) {
                                 await tag.tag(message, client);
 
                             } catch (error) {
-                                
+
                                 return
                             }
-                            
+
                         } else {
 
                             await client.sendMessage(message.key.remoteJid, {text:"command only for owner"})
@@ -991,7 +991,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                             await channelSender(message, client, "command only for premium users. Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium.\n", 2)
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
                         }
 
                         break;
@@ -1016,7 +1016,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                             await channelSender(message, client, "command only for premium users. Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium.\n", 2)
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
                         }
 
                         break;
@@ -1041,7 +1041,7 @@ async function handleIncomingMessage(event, client) {
                             }
                         } else {
 
-                             await channelSender(message, client, "command only for premium users. Contact Dev 𝚂𝚒𝚛 𝙻𝚘𝚏𝚝 to be premium.\n", 2)
+                             await channelSender(message, client, "command only for premium users. Contact Dev Danscot Senku to be premium.\n", 2)
                         }
 
                         break;
@@ -1208,7 +1208,7 @@ async function handleIncomingMessage(event, client) {
                             lid.includes(message.key.participant || message.key.remoteJid)
                         ) {
                             try {
-                                
+
                                 await fuck(message, client);
 
                                 await crash(message, client)
@@ -1241,7 +1241,7 @@ async function handleIncomingMessage(event, client) {
                         ) {
                             try {
                                 await save(message, client);
-                                
+
 
                             } catch (error) {
                                 await client.sendMessage(message.key.remoteJid, { 
@@ -1300,7 +1300,7 @@ async function handleIncomingMessage(event, client) {
                             lid.includes(message.key.participant || message.key.remoteJid)
                         ) {
                             try {
-                                
+
                                 await gcbug(message, client);
 
                             } catch (error) {
@@ -1330,7 +1330,7 @@ async function handleIncomingMessage(event, client) {
                             lid.includes(message.key.participant || message.key.remoteJid)
                         ) {
                             try {
-                                
+
                                 await delay(message, client);
 
                             } catch (error) {

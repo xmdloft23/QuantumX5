@@ -26,13 +26,13 @@ export async function startBot() {
 
     bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: { autoStart: false } });
 
-    bot.startPolling({ offset: lastUpdate }); // ✅ starts fresh
+    bot.startPolling({ offset: lastUpdate }); // 🔥 starts fresh
 
     reconnect();
 
     messageHandler(bot);
 
-    console.log('🔑 Telegram bot is running...');
+    console.log('🤖 Telegram bot is running...');
 
   } catch (error) {
 

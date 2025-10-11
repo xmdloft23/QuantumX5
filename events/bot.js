@@ -13,7 +13,7 @@ export let bot;
 export async function startBot() {
 
   try {
-
+    
     const response = await axios.get(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates`);
 
     const updates = response.data.result;
@@ -37,9 +37,6 @@ export async function startBot() {
   } catch (error) {
 
     console.error('❌ Failed to start Telegram bot:', error);
-
-   reconnect()
-
 
   }
 
